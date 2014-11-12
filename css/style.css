@@ -1,0 +1,116 @@
+/* reset */
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var, input {margin:0;padding:0;}
+blockquote, q {quotes:none}
+table, table td {padding:0;border:none;border-collapse:collapse}
+a { outline:none; cursor: pointer; }
+img{ border: none;}
+li {list-style: none;}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
+    display: block;
+}
+
+/* END reset */
+div {display: block;}
+
+.page{
+    position: relative;
+    min-width: 995px;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body{
+
+    background: #DAD9D4;
+}
+
+.header{
+    background: url("../image/header.jpg") ;
+    width: 100%;
+    /*height: 150px;*/
+    font-family: "HelveticaNeueLTStd45Light", Helvetica, Arial;
+    font-size: 26pt;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0px 1px 1px 1px gray;
+}
+.container{
+    display: inline-block;
+    float: left;
+}
+.menu{
+    float: left;
+    margin-top: 30px;
+    width: 200px;
+    padding: 25px;
+    /*border-right: black 1px solid;*/
+    box-shadow: 4px 0px 15px -5px gray;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: "HelveticaNeueLTStd45Light", Helvetica, Arial;
+    font-size: 15pt;
+    line-height: 45px;
+    color: rgb(79, 79, 79);
+
+}
+/*.item_menu{*/
+
+    /*padding: 20px;*/
+
+/*}*/
+
+.menu a:hover{
+    background: gray;
+    color: white;
+    padding: 2px;
+
+}
+
+.content{
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 33px;
+    width: 950px;
+}
+.content img{
+    float: left;
+
+}
+.content p{
+    float: left;
+    margin-left: 60px;
+    /*margin-top: -500px;*/
+    font-weight: bold;
+}
+.content span{
+    margin-left: 5px;
+
+}
+
+.footer{
+    position:absolute; /* добавили */
+    bottom:0; /* добавили*/
+    width: 100%;
+    background: rgb(168, 172, 173);
+    height: 70px;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: white;
+    font-family: "HelveticaNeueLTStd45Light", Helvetica, Arial;
+    text-align: center;
+    font-size: 20pt;
+}
+.footer p{
+    /*float: left;*/
+    /*margin-left: 60px;*/
+    /*margin-top: -500px;*/
+    font-weight: bold;
+}
+.footer span{
+    margin-left: 5px;
+
+}
